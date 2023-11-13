@@ -20,23 +20,3 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
         nums1[j+1] = current;
     }
 }
-
-int main()
-{
-    int nums1[6]={1,4,5,0,0,0};
-    int nums2[3]={2,3,6};
-    int m=3;
-    int n=3;
-    for(int i=0;i<m+n;i++)
-    {
-       printf("%d",nums1[i]);
-    }
-    printf("\n");
-    merge(nums1,sizeof(nums1),m,nums2,sizeof(nums2),n);
-  
-    for(int i=0;i<m+n;i++)
-    {
-       printf("%d",nums1[i]);
-    }
-    return 0;
-}
