@@ -1,7 +1,0 @@
-{
-    "discord.removeDetails": true,
-    "discord.removeLowerDetails": true,
-    "discord.removeRemoteRepository": true,
-    "discord.removeTimestamp": false,
-    "C_Cpp.errorSquiggles": "disabled"
-}
