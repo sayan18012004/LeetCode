@@ -1,5 +1,5 @@
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
+class twoSum {
+    public int[] twoSums(int[] nums, int target) {
         int[] arr = new int[2];
 
         for(int i = 0; i < nums.length; i++){
@@ -13,8 +13,5 @@ class Solution {
             }
         }
         return null;
-    }
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
     }
 }
