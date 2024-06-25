@@ -1,4 +1,4 @@
-class twoSum {
+class twoSum{
     public int[] twoSums(int[] nums, int target) {
         int[] arr = new int[2];
 
@@ -13,5 +13,16 @@ class twoSum {
             }
         }
         return null;
+    }
+    public static void main(String[] args) {
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
+
+        twoSum obj = new twoSum();
+        int[] result = obj.twoSums(nums, target);
+
+        for(int i = 0; i < result.length; i++){
+            System.out.println(result[i]);
+        }
     }
 }

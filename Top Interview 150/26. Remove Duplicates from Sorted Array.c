@@ -26,6 +26,7 @@ int main()
     for (int i = 0; i < newSize; i++)
     {
         printf("%d ", nums[i]);
+        printf("Hello World\n");
     }
 
     return 0;
