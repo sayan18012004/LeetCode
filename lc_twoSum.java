@@ -1,4 +1,4 @@
-class lctwoSum{
+class lc_twoSum{
     public int[] twoSums(int[] nums, int target) {
         int[] arr = new int[2];
 
@@ -18,7 +18,7 @@ class lctwoSum{
         int[] nums = {2, 7, 11, 15};
         int target = 9;
 
-        lctwoSum obj = new lctwoSum();
+        lc_twoSum obj = new lc_twoSum();
         int[] result = obj.twoSums(nums, target);
 
         for(int i = 0; i < result.length; i++){

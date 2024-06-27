@@ -1,4 +1,4 @@
-public class lcaddTwoNumbers {
+public class lc_addTwoNumbers {
         public class ListNode {
         int val;
         ListNode next;
